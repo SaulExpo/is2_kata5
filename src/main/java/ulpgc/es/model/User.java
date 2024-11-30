@@ -20,8 +20,9 @@ public class User {
         this.gender = gender;
     }
 
-    public void setPhoto(byte[] photo) {
+    public User setPhoto(byte[] photo) {
         this.photo = photo;
+        return this;
     }
 
     public String getName() {
